@@ -6,6 +6,15 @@
   height: 40vmin;
   pointer-events: none;
 }
+.texto {
+  font-family: Mulish;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: center;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -35,4 +44,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+.formato {
+  width: 80%;
+  background-color: black;
+}
+.Navbar {
+  background-color: darkmagenta;
 }
